@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-16T06:55:12 BST" name="Suite" finished-at="2025-10-16T06:56:21 BST" duration-ms="68246">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-10-16T06:55:12 BST" name="Test" finished-at="2025-10-16T06:56:21 BST" duration-ms="68246">
+      <class name="com.leaftaps.testcases.TC001_VerifyLogin">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:55:12 BST" name="setValues" finished-at="2025-10-16T06:55:12 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:56:08 BST" name="setUpClass" finished-at="2025-10-16T06:56:08 BST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b736fee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:56:08 BST" name="startTestCase" finished-at="2025-10-16T06:56:08 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:56:08 BST" name="preCondition" finished-at="2025-10-16T06:56:13 BST" duration-ms="5103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:56:13 BST" name="runLogin" data-provider="fetchData" finished-at="2025-10-16T06:56:21 BST" duration-ms="7636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:56:21 BST" name="postCondition" finished-at="2025-10-16T06:56:21 BST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.testcases.TC001_VerifyLogin@367ffa75]" started-at="2025-10-16T06:56:21 BST" name="tearDownClass" finished-at="2025-10-16T06:56:21 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.leaftaps.testcases.TC001_VerifyLogin -->
+      <class name="com.leaftaps.testcases.TC003_CreateLead">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:55:12 BST" name="startReport" finished-at="2025-10-16T06:55:12 BST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:55:12 BST" name="setValues" finished-at="2025-10-16T06:55:12 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:55:12 BST" name="setUpClass" finished-at="2025-10-16T06:55:13 BST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b736fee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:55:13 BST" name="startTestCase" finished-at="2025-10-16T06:55:13 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:55:13 BST" name="preCondition" finished-at="2025-10-16T06:55:21 BST" duration-ms="8090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:55:21 BST" name="runLogin" data-provider="fetchData" finished-at="2025-10-16T06:56:08 BST" duration-ms="46360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testleaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:56:08 BST" name="postCondition" finished-at="2025-10-16T06:56:08 BST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:56:08 BST" name="tearDownClass" finished-at="2025-10-16T06:56:08 BST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="endResult()[pri:0, instance:com.leaftaps.testcases.TC003_CreateLead@79079097]" started-at="2025-10-16T06:56:21 BST" name="endResult" finished-at="2025-10-16T06:56:21 BST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- com.leaftaps.testcases.TC003_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
